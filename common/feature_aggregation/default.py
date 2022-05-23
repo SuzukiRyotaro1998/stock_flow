@@ -2,11 +2,9 @@ import pandas as pd
 import sys
 
 sys.path.append("../../")
-from common.custom_logger import CustomLogger
 from common.feature_aggregation.features import sma, ema, highest, lowest, hilo_ratio, adosc, hilo, spread
 import numpy as np
 
-logger = CustomLogger("Preprocess_Logger")
 
 
 class agg_feature_default:

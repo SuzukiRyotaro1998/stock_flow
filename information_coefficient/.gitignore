@@ -1,0 +1,9 @@
+__pycache__
+.ipynb_checkpoints/
+mlruns/
+result/
+EDA/
+.venv
+.DS_Store
+.env
+.csv
